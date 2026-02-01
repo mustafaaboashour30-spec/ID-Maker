@@ -1,0 +1,104 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: #222831;
+    background-image: url(background.svg);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: white 2px dashed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+a:hover {
+    color: darkblue;
+    background-color: whitesmoke;
+    transform: scale(1.2);
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 5rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: white 2px dashed;
+}
+
+.img {
+    width: 500px;
+    margin-left: 35px;
+}
+
+.creat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: whitesmoke 1px double;
+}
+
+.creat h1 {
+    color: aqua;
+}
+.creat input {
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pcard {
+    background-color: teal;
+    border-radius: 25px;    
+    display: flex;
+    flex-direction: row;
+}
+
+#card img {
+    transform: scaleX(-1);
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+
+#card div h4 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+}
+
+#card div {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
